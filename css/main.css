@@ -241,8 +241,13 @@ h2 {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media (min-device-width : 320px) and (max-device-width: 767px) {
+    h1 {
+        font-size: 8ex;
+    }
+    h2 {
+        font-size: 2ex;
+    }
 }
 
 @media print,
